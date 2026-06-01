@@ -1,0 +1,111 @@
+/* Reset básico de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+  color: #333333;
+  line-height: 1.5;
+}
+
+/* Contenedor principal de la aplicación */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Contenedor de ancho limitado */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Títulos principales */
+h1 {
+  font-size: 32px;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Enlaces */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones estándar */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #0070f3;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #333333;
+  border: 1px solid #cccccc;
+}
+
+.btn-secondary:hover {
+  background-color: #d5d5d5;
+}
+
+/* Campos de entrada del formulario */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #0070f3;
+}
+
+/* Tarjeta básica blanca */
+.card {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
